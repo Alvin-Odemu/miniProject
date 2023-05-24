@@ -10,5 +10,6 @@
 <body>
     <?php include_once "top-nav.php"; ?>
     <h1>About us</h1>
+    <h2>get to find out about our site</h2>
 </body>
 </html>
