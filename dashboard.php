@@ -15,7 +15,7 @@
                 <ul>
                     <li><a href="dashboard.php?id=profile">Profile</a></li>
                     <li><a href="dashboard.php?id=statements">View statements</a></li>
-                    <li><a href="dashboard.php?id=loans">Apply Loan</a></li>
+                    <li><a href="dashboard.php?id=Membership">Apply Membership</a></li>
                     <li><a href="dashboard.php?id=reports">Reports</a></li>
                     <li><a href="dashboard.php?id=logout">Logout</a></li>
                 </ul>
@@ -30,10 +30,10 @@
                         include_once "profile.php";
                         break;
                     case 'statements':
-                        echo "You selected statements";
+                        include_once "statements.php";
                         break;
-                    case 'loans':
-                        echo "You selected loans";
+                    case 'Membership':
+                        include_once "membershipform.php";
                         break;
                     case 'reports':
                         echo "You selected reports";
