@@ -26,11 +26,11 @@
         }
 
         .container input[type="submit"] {
-            background-color: #06fa0e;
-            color: rgb(12, 12, 12);
+            background-color: #4CAF50;
+            color: white;
             cursor: pointer;
         }
 
         .container input[type="submit"]:hover {
-            background-color: #ecf1ed;
+            background-color: #05f911;
         }
