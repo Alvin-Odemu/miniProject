@@ -14,8 +14,9 @@
             <div class="dashboard-header">
                 <ul>
                     <li><a href="dashboard.php?id=profile">Profile</a></li>
-                    <li><a href="dashboard.php?id=statements">View statements</a></li>
                     <li><a href="dashboard.php?id=Membership">Apply Membership</a></li>
+                    <li><a href="dashboard.php?id=payment">Pay Membership</a></li>
+                    <li><a href="dashboard.php?id=statements">View statements</a></li>
                     <li><a href="dashboard.php?id=reports">Reports</a></li>
                     <li><a href="dashboard.php?id=logout">Logout</a></li>
                 </ul>
@@ -29,15 +30,18 @@
                     case 'profile':
                         include_once "profile.php";
                         break;
-                    case 'statements':
-                        include_once "statements.php";
-                        break;
                     case 'Membership':
                         include_once "membershipform.php";
                         break;
-                    case 'reports':
-                        echo "You selected reports";
+                    case 'payment':
+                        include_once "paymentform.php";
                         break;
+                    case 'reports':
+                        include "reports.php";
+                        break;
+                        case 'statements':
+                            include_once "statements.php";
+                            break;
                     case 'logout':
                         // Perform logout action
                         session_start();

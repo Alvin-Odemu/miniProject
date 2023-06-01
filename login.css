@@ -6,8 +6,8 @@ body {
     max-width: 300px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ef0d0d;
+    border-radius: 50px;
 }
 
 .login-form h1 {
@@ -16,20 +16,20 @@ body {
 }
 
 .form-input {
-    margin-bottom: 15px;
+    margin: 15px;
 }
 
 .form-input input[type="text"]{
-    width: 100%;
+    margin: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ee0f0f;
     border-radius: 3px;
 }
 
 .form-input input[type="password"]{
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #f80707;
     border-radius: 3px;
 }
 
@@ -41,11 +41,11 @@ body {
 }
 
 .form-input input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #053306;
+    color: rgb(14, 14, 14);
     cursor: pointer;
 }
 
 .form-input input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #eaf0ea;
 }

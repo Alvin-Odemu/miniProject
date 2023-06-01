@@ -32,9 +32,13 @@
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #000;
+    color: #f9f6f6;
 }
 
+.dashboard-header{
+    background-color: #121111; 
+    height: 100vh;
+}
 .dashboard-header a:hover {
-    background-color: #ccc; 
+    background-color: #766565; 
 }
